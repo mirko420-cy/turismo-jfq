@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+*{
+  color: black;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+}
+
+
+.logo {
+  margin-right: 20px; /* Ajusta el espacio entre el logo y el texto */
+}
+
+.texto {
+  text-align: left;
+}
+
+#miGrupo {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.bloqueNaturaleza {
+  text-align: right;
+  float: right
+}
+
+.titulo-naturaleza{
+ text-align: center;
+}
+.texto-naturaleza{
+  order: -1;
+  background-color: #ffd700;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+
+.bloqueCultura {
+  text-align: right;
+  float: right
+}
+.titulo-cultura{
+  text-align: center;
+}
+.texto-cultura{
+  order: 0;
+  background-color: #00ced1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cc3;
+  text-align: center;
+}
+
+.bloqueEsparcimiento {
+  text-align: right;
+  float: right
+}
+.titulo-espa{
+  text-align: center;
+}
+
+.texto-esparcimiento {
+  order: 1;
+  background-color: #00ced1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #c3423c;
+  text-align: center;
+}
+
+.imagen-de-muestra {
+  width: 200px;
+  height: 150px;
+  float: right; /* Mueve la imagen a la derecha */
+  margin-left: 10px; /* Puedes ajustar el valor según tus preferencias */
+  margin-bottom: 10px; /* Puedes ajustar el valor según tus preferencias */
+}
+.culturas-precolombinas {
+  width: 200px;
+  height: 150px;
+  float: right; /* Mueve la imagen a la derecha */
+  margin-left: 10px; /* Puedes ajustar el valor según tus preferencias */
+  margin-bottom: 10px; /* Puedes ajustar el valor según tus preferencias */
+}
+.imagen-de-espa {
+  width: 200px;
+  height: 150px;
+}
+
+.donde {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.bloque-donde-comer, .bloque-donde-dormir {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  border: 60px solid #ccc;
+  color: black;
+  background-color: #00ced1;
+  text-align: center;
+}
