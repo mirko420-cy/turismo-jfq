@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
 }
 
@@ -160,8 +161,22 @@ a {
   width: 50%;
   float: left;
   box-sizing: border-box;
-  border: 60px solid #ccc;
+  border: 10px solid #ccc;
   color: black;
   background-color: #00ced1;
   text-align: center;
+}
+.estaciones {
+  display: flex;
+  
+}
+
+.Primavera, .verano, .Otoño, .Invierno {
+  width: 300px; /* Ajusta el ancho según tus necesidades */
+  height: 350px; /* Ajusta la altura según tus necesidades */
+  border: 1px solid #000;
+  margin: 15px; /* Ajusta el margen según tus necesidades */
+  box-sizing: border-box;
+  display: inline-block;
+  align-content: center;
 }
